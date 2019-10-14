@@ -1,0 +1,83 @@
+body {
+	background-image:linear-gradient(to bottom right, purple, aqua);
+	color: coral;
+	margin:0px;
+
+}
+
+p {
+	font-size: 30px;
+	font-family: Mansalva, cursive;
+}
+
+h1 {
+	font-family: Mansalva, cursive;
+	font-size: 50px;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+h2 {
+	font-family: Mansalva, cursive;
+	font-size: 50px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+/*creating a specific class to edit */
+.Party {
+	/*margin-left: 15px;
+	background-color: white;
+	color: black;
+	margin-top: 15px: ;
+	border-radius: 10%;
+	border: 3px solid white;*/
+}
+/*navigation bar style*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.active {
+	background-color: orange;
+}
+
+/*end navigation bar*/
+.paragraph{
+	width: 800px;
+	text-align: center;
+}
+.button{
+	background-color: green;
+	color: white;
+	border:none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+img{
+	height: 450px;
+	width: 468px;
+}
